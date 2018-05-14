@@ -1,8 +1,17 @@
-## Welcome to GitHub Pages
+## Predstavenie projektu
+Projekt bude obsahovat webovu aplikaciu v jave 
+Temou projektu je kriminalita v CR
+uyivatel uvidi mapu CR rozdelenu na kraje
+po kliknuti na vzbrany kraj sa zobrazi diagram
+diagram bude obsahovat suhrn jednotlivych trestnych cinov 
 
-You can use the [editor on GitHub](https://github.com/DominikaKasakova/Statistika-kriminality-v-CR/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Príprava dát
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Zo stránky http://www.policie.cz/clanek/statisticke-prehledy-kriminality-za-rok-2018.aspx stiahneme dáta kriminality z roku 2016 a 2016
+Dáta rozdelené podľa jednotlivých mesiacov upravíme a prekonvertujeme z xlsl do csv
+
+
+
 
 ### Markdown
 
