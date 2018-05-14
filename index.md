@@ -1,46 +1,20 @@
 ## Predstavenie projektu
-Projekt bude obsahovat webovu aplikaciu v jave 
-Temou projektu je kriminalita v CR
-uyivatel uvidi mapu CR rozdelenu na kraje
-po kliknuti na vzbrany kraj sa zobrazi diagram
-diagram bude obsahovat suhrn jednotlivych trestnych cinov 
 
-## Príprava dát
-
-Zo stránky http://www.policie.cz/clanek/statisticke-prehledy-kriminality-za-rok-2018.aspx stiahneme dáta kriminality z roku 2016 a 2016
-Dáta rozdelené podľa jednotlivých mesiacov upravíme a prekonvertujeme z xlsl do csv
+- Projekt bude obsahovat webovu aplikaciu v jave 
+- Temou projektu je kriminalita v CR
+- Uzivatel uvidi mapu CR rozdelenu na kraje
+- Po kliknuti na vybrany kraj sa zobrazi diagram
+- Diagram bude obsahovat suhrn jednotlivych trestnych cinov pre kazdy rok
+- Uzivatel si bude moct v diagrame vyfiltrovat konkretne udaje ktore potrebuje (mesiac, rok, druh trestneho cinu)
 
 
+## Popis dat
 
+- Zo stránky http://www.policie.cz/clanek/statisticke-prehledy-kriminality-za-rok-2018.aspx stiahneme dáta kriminality z roku 2016 a 2016
+- pre kazdy rok je vytvorenych 12 xlsl suborov, pre kazdy mesiac jeden
+- subory obsahuju udaje o kriminalite v CR
+- data su rozdelene do listov
+- kazdy list predstavuje 1 kraj
+- 1. list obsahuje data pre celu CR
+- pre jednoduchsie spracovanie data prekonvertujeme z xlsl do csv
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DominikaKasakova/Statistika-kriminality-v-CR/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
